@@ -1,0 +1,68 @@
+body{
+    background-color: #f9f9f9;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav h1{
+text-align: center;
+color: #212121;
+font-size: 30px;
+margin: 0px;
+}
+
+#heading{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+#player{
+    float: left;
+    width: 60%;
+}
+
+#sidebar{
+    float: right;
+    width: 40%;
+}
+
+h3, h4{
+    margin: 0px;
+}
+#sidebar ol{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#contentarea{
+    padding: 50px 0px 50px 0px;
+}
+
+#thumbnail{
+    float: left;
+    width: 50%;
+}
+
+#thumbnail img{
+    width: 95%;
+}
+
+#thumbnailcontent{
+    width: 50%;
+    float: right;
+}
+
+#sidebar ol li{
+    margin-bottom: 10px;
+}
+
+.sidebaritem{
+    overflow: hidden;
+}
