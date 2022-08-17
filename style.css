@@ -18,6 +18,8 @@ margin: 0px;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
 
 .container{
@@ -34,10 +36,15 @@ margin: 0px;
 #sidebar{
     float: right;
     width: 40%;
+    border-radius: 0%;
 }
 
 h3, h4{
     margin: 0px;
+    background-color: aquamarine;
+    text-decoration-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic,bold;
 }
 #sidebar ol{
     list-style-type: none;
@@ -68,4 +75,22 @@ h3, h4{
 
 .sidebaritem{
     overflow: hidden;
+}
+.foo {
+    text-align: center;
+    text-decoration-color: rebeccapurple;
+    font-size: larger;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr {
+    height: 5px;
+    background-color: blanchedalmond;
+    padding:2px;
+}
+p {
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
